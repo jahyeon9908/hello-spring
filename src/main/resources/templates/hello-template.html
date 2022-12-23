@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name2}"></p> <!-- model의 키를 받고 키에 해당하는 값을 넣음 -->
+<!--hello! empty 부분은 사실 비워놔도 됨 : 서버없이 html을 띄울 때나 쓰는 거고 -->
+<!--서버를 거쳐 띄우면 'hello ' + ${name} 이게 저 자리에 들어가게 된다 -->
+</body>
+</html>
